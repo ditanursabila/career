@@ -26,7 +26,9 @@
       So, are you ready to grow beyond with us?
     </h1>
 
-    <Jobs />
+
+    <Jobs :limit="3" />
+
 
     <div class="flex justify-center mt-8">
 
@@ -40,7 +42,3 @@
     </div>
   </div>
 </template>
-
-<script setup>
-
-</script>
